@@ -1,0 +1,14 @@
+ <table>
+  <tr>
+    <th>Nombre</th>
+    <th>Liga</th>
+    <th>Rango</th>
+  </tr>
+  {% for c in frutas %}
+    <tr>
+      <td>{{c.0}}</td>
+      <td>{{c.1}}</td>
+      <td>{{c.2}}</td>
+    </tr>
+  {% endfor %}
+</table>
